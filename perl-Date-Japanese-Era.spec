@@ -11,7 +11,7 @@ Name:		perl-Date-Japanese-Era
 Version:	0.03
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fbf6c6990fa9646b7ddc749c2e76e86
