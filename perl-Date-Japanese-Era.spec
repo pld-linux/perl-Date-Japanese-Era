@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
-%define pnam	Japanese-Era
+%define	pnam	Japanese-Era
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
 Summary(pl):	Date::Japanese::Era - obliczanie dat w kalendarzu ery japoñskiej
 Name:		perl-Date-Japanese-Era
