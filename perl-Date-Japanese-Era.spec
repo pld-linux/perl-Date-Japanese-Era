@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Japanese-Era
+%define		pdir	Date
+%define		pnam	Japanese-Era
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
 Summary(pl):	Date::Japanese::Era - obliczanie dat w kalendarzu ery japoñskiej
 Name:		perl-Date-Japanese-Era
