@@ -8,17 +8,21 @@
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
 Summary(pl):	Date::Japanese::Era - obliczanie dat w kalendarzu ery japoñskiej
 Name:		perl-Date-Japanese-Era
-Version:	0.03
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0fbf6c6990fa9646b7ddc749c2e76e86
+# Source0-md5:	9b33e50cb76376680762c0765f93970c
+URL:		http://search.cpan.org/dist/Date-Japanese-Era/
 BuildRequires:	perl-Date-Calc
 BuildRequires:	perl-Jcode
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Lingua-JA-Numbers
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
