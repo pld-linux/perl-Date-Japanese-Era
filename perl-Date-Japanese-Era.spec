@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Japanese-Era
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
-Summary(pl):	Date::Japanese::Era - obliczanie dat w kalendarzu ery japoñskiej
+Summary(pl.UTF-8):   Date::Japanese::Era - obliczanie dat w kalendarzu ery japoÅ„skiej
 Name:		perl-Date-Japanese-Era
 Version:	0.06
 Release:	1
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Date::Japanese::Era handles conversion between Japanese Era and
 Gregorian calendar.
 
-%description -l pl
-Data::Japanese::Era obs³uguje konwersjê pomiêdzy kalendarzem ery
-japoñskiej (Japanese-Era) a gregoriañskim.
+%description -l pl.UTF-8
+Data::Japanese::Era obsÅ‚uguje konwersjÄ™ pomiÄ™dzy kalendarzem ery
+japoÅ„skiej (Japanese-Era) a gregoriaÅ„skim.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
