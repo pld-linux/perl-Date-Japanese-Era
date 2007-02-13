@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Japanese-Era
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
-Summary(pl.UTF-8):   Date::Japanese::Era - obliczanie dat w kalendarzu ery japońskiej
+Summary(pl.UTF-8):	Date::Japanese::Era - obliczanie dat w kalendarzu ery japońskiej
 Name:		perl-Date-Japanese-Era
 Version:	0.06
 Release:	1
