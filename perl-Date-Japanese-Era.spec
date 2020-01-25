@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Date
 %define		pnam	Japanese-Era
 Summary:	Date::Japanese::Era - calculate dates in the Japanese-Era calendar
